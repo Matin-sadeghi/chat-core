@@ -1,0 +1,7 @@
+{
+    "api_key": "api_key",
+    "allowed_origins": ["*"],
+    "admin": true,
+    "admin_password": "admin",
+    "admin_secret": "secret"
+  }
