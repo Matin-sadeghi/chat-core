@@ -2,6 +2,11 @@
   "http_api": {
     "key": "api_key"
   },
+  "grpc_api": {
+    "enabled": true,
+    "port": 10000,
+    "key": "api_key"
+  },
   "client": {
     "insecure": true,
     "allowed_origins": ["*"]

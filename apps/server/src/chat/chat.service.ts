@@ -17,7 +17,7 @@ export class ChatService {
 
     this.messages.push(payload);
 
-    await this.centrifugoService.publish(payload);
+    await this.centrifugoService.publish('chat', payload);
 
     return payload;
   }
