@@ -1,7 +1,14 @@
 {
-    "api_key": "api_key",
-    "allowed_origins": ["*"],
-    "admin": true,
-    "admin_password": "admin",
-    "admin_secret": "secret"
+  "http_api": {
+    "key": "api_key"
+  },
+  "client": {
+    "insecure": true,
+    "allowed_origins": ["*"]
+  },
+  "admin": {
+    "enabled": true,
+    "password": "admin",
+    "secret": "secret"
   }
+}
