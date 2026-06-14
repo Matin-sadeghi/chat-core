@@ -24,6 +24,7 @@
     "@grpc/proto-loader": "^0.8.1",
     "@nestjs/common": "^11.0.1",
     "@nestjs/core": "^11.0.1",
+    "@nestjs/cqrs": "^11.0.3",
     "@nestjs/platform-express": "^11.0.1",
     "axios": "^1.17.0",
     "reflect-metadata": "^0.2.2",
